@@ -1,0 +1,8 @@
+C:\Users\danie\source\repos\BibliotecaPersona\BibliotecaPersona\obj\Debug\netstandard2.0\BibliotecaPersona.AssemblyInfoInputs.cache
+C:\Users\danie\source\repos\BibliotecaPersona\BibliotecaPersona\obj\Debug\netstandard2.0\BibliotecaPersona.AssemblyInfo.cs
+C:\Users\danie\source\repos\BibliotecaPersona\BibliotecaPersona\bin\Debug\netstandard2.0\BibliotecaPersona.deps.json
+C:\Users\danie\source\repos\BibliotecaPersona\BibliotecaPersona\bin\Debug\netstandard2.0\BibliotecaPersona.dll
+C:\Users\danie\source\repos\BibliotecaPersona\BibliotecaPersona\bin\Debug\netstandard2.0\BibliotecaPersona.pdb
+C:\Users\danie\source\repos\BibliotecaPersona\BibliotecaPersona\obj\Debug\netstandard2.0\BibliotecaPersona.dll
+C:\Users\danie\source\repos\BibliotecaPersona\BibliotecaPersona\obj\Debug\netstandard2.0\BibliotecaPersona.pdb
+C:\Users\danie\source\repos\BibliotecaPersona\BibliotecaPersona\obj\Debug\netstandard2.0\BibliotecaPersona.csprojAssemblyReference.cache
