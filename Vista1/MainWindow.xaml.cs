@@ -54,6 +54,7 @@ namespace Vista1
                     per.sexo = "Maculino";
                 }
 
+                Console.WriteLine("dfxdfxdf");
                 per.estadoCiv=cbsituacion.Text;
 
                 
