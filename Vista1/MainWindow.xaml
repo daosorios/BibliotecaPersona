@@ -5,28 +5,32 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:Vista1"
         mc:Ignorable="d"
-        Title="Registrar Cliente " Height="600" Width="1000">
+        Title="Registrar Cliente " Height="600" Width="650">
     <Grid >
-        <Label x:Name="Lrut" Content="Rut" HorizontalAlignment="Left" Margin="66,32,0,0" VerticalAlignment="Top"/>
+        <Label x:Name="Lrut" Content="Rut" HorizontalAlignment="Left" Margin="66,32,0,0" VerticalAlignment="Top" FontWeight="Bold"/>
         <TextBox x:Name="txtRut" HorizontalAlignment="Left" Height="23" Margin="206,35,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="220" RenderTransformOrigin="0.364,-0.055"/>
-        <Label x:Name="Lnombres" Content="Nombres" HorizontalAlignment="Left" Margin="66,79,0,0" VerticalAlignment="Top"/>
+        <Label x:Name="Lnombres" Content="Nombres" HorizontalAlignment="Left" Margin="66,79,0,0" VerticalAlignment="Top" FontWeight="Bold"/>
         <TextBox x:Name="txtNombre" HorizontalAlignment="Left" Height="23" Margin="206,82,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="220"/>
-        <Label x:Name="Lapellidos" Content="Apellidos" HorizontalAlignment="Left" Margin="66,131,0,0" VerticalAlignment="Top" RenderTransformOrigin="-0.237,-0.423"/>
+        <Label x:Name="Lapellidos" Content="Apellidos" HorizontalAlignment="Left" Margin="66,131,0,0" VerticalAlignment="Top" RenderTransformOrigin="-0.237,-0.423" FontWeight="Bold"/>
         <TextBox x:Name="txtApellidos" HorizontalAlignment="Left" Height="23" Margin="206,131,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="220"/>
-        <Label x:Name="LfechaNaci" Content="Fecha Nacimiento&#xD;&#xA;" HorizontalAlignment="Left" Margin="66,181,0,0" VerticalAlignment="Top"/>
+        <Label x:Name="LfechaNaci" Content="Fecha Nacimiento&#xD;&#xA;" HorizontalAlignment="Left" Margin="66,181,0,0" VerticalAlignment="Top" FontWeight="Bold"/>
         <DatePicker x:Name="dpFechaNac" HorizontalAlignment="Left" Margin="206,182,0,0" VerticalAlignment="Top" Width="220"/>
-        <Button x:Name="bAgregar" Content="Aceptar" HorizontalAlignment="Left" Margin="520,167,0,0" VerticalAlignment="Top" Width="75" RenderTransformOrigin="-0.587,0.8" Click="Button_Click"/>
-        <DataGrid x:Name="dgCliente" HorizontalAlignment="Left" Height="194" Margin="35,340,0,0" VerticalAlignment="Top" Width="627" IsReadOnly="True"/>
-        <RadioButton x:Name="rbfemenino" Content="femenino" HorizontalAlignment="Left" Margin="206,245,0,0" VerticalAlignment="Top" GroupName="sexo"/>
-        <RadioButton x:Name="rbmasculino" Content="masculino" HorizontalAlignment="Left" Margin="341,245,0,0" VerticalAlignment="Top" GroupName="sexo"/>
-        <ComboBox x:Name="cbsituacion" HorizontalAlignment="Left" Margin="206,290,0,0" VerticalAlignment="Top" Width="220" SelectedIndex="0">
+        <Button x:Name="bAgregar" Content="Agregar" HorizontalAlignment="Left" Margin="520,182,0,0" VerticalAlignment="Top" Width="75" RenderTransformOrigin="-0.587,0.8" Click="Button_Click"/>
+        <DataGrid x:Name="dgCliente" HorizontalAlignment="Left" Height="176" Margin="35,358,0,0" VerticalAlignment="Top" Width="560" IsReadOnly="True"/>
+        <RadioButton x:Name="rbfemenino" Content="Femenino" HorizontalAlignment="Left" Margin="206,233,0,0" VerticalAlignment="Top" GroupName="sexo"/>
+        <RadioButton x:Name="rbmasculino" Content="Masculino" HorizontalAlignment="Left" Margin="353,233,0,0" VerticalAlignment="Top" GroupName="sexo"/>
+        <ComboBox x:Name="cbsituacion" HorizontalAlignment="Left" Margin="206,274,0,0" VerticalAlignment="Top" Width="220" SelectedIndex="0">
             <ComboBoxItem Content="Soltero"/>
             <ComboBoxItem Content="Divorciado"/>
             <ComboBoxItem Content="Viudo"/>
             <ComboBoxItem Content="Casado"/>
         </ComboBox>
-        <Button x:Name="BLimpiar" Content="Limpiar" HorizontalAlignment="Left" Margin="520,218,0,0" VerticalAlignment="Top" Width="75" Click="Button_Click_1"/>
         <Button x:Name="bBuscar" Content="Bucar" HorizontalAlignment="Left" Margin="520,38,0,0" VerticalAlignment="Top" Width="75" Click="Button_Click_2"/>
+        <Button x:Name="bEditar" Content="Editar" HorizontalAlignment="Left" Margin="520,233,0,0" VerticalAlignment="Top" Width="75" Click="bEditar_Click"/>
+        <Button x:Name="bEliminar" Content="Eliminar" HorizontalAlignment="Left" Margin="520,281,0,0" VerticalAlignment="Top" Width="75" Click="Button_Click_1"/>
+        <Label Content="Clientes Registrados :" HorizontalAlignment="Left" Margin="35,327,0,0" VerticalAlignment="Top" Width="136" FontWeight="Bold"/>
+        <Label Content="Sexo" HorizontalAlignment="Left" Margin="66,223,0,0" VerticalAlignment="Top" FontWeight="Bold"/>
+        <Label Content="Estado Civil" HorizontalAlignment="Left" Margin="66,270,0,0" VerticalAlignment="Top" RenderTransformOrigin="-0.079,0.115" FontWeight="Bold"/>
 
     </Grid>
 </Window>
