@@ -127,13 +127,13 @@ namespace Vista1
                 catch (Exception)
                 {
 
-                    MessageBox.Show("Cliente no encontrado !");
+                    MessageBox.Show("Cliente no encontrado!", "Atención", MessageBoxButton.OK, MessageBoxImage.Exclamation);
                 }
 
             }
             else
             {
-                MessageBox.Show("Debe ingresar el rut del cliente");
+                MessageBox.Show("Debe ingresar el rut del cliente","Atención", MessageBoxButton.OK, MessageBoxImage.Information);
             }
         }
 
@@ -176,21 +176,22 @@ namespace Vista1
             try
             {
                 //mensaje que tiene boton si o no para confirmar eliminacion 
-               MessageBoxResult eliminar= MessageBox.Show("¿Está Seguro de eliminar este cliente?", "Confirmar",MessageBoxButton.YesNo,MessageBoxImage.Question);
+               MessageBoxResult eliminar= MessageBox.Show("¿Seguro de eliminar este cliente?", "Confirmar",MessageBoxButton.YesNo,MessageBoxImage.Question);
                 Persona per = misclientes.First(p => p.rut == txtRut.Text);
                 misclientes.Remove(per);
 
-                if(eliminar== MessageBoxResult.Yes)
+                if (eliminar == MessageBoxResult.Yes)
                 {
                     misclientes.Remove(per);
                     MostrarPersonas();
                     Limpiar();
+                    MessageBox.Show("Cliente eliminado", "Confirmado", MessageBoxButton.OK, MessageBoxImage.Information);
                 }
                 
             }
             catch
             {
-                MessageBox.Show("Cliente no encontrado!");
+                MessageBox.Show("Cliente no encontrado!","Atención",MessageBoxButton.OK,MessageBoxImage.Exclamation);
             }
         }
     }
