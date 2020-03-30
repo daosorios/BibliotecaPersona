@@ -12,7 +12,7 @@ using System.Windows.Media;
 using System.Windows.Media.Imaging;
 using System.Windows.Navigation;
 using System.Windows.Shapes;
-using BibliotecaPersona;
+using BeLife;
 
 
 namespace Vista1
@@ -24,7 +24,7 @@ namespace Vista1
     public partial class MainWindow : Window
     {
         //lista para almacenar a las clientes
-        List<Persona> misclientes = new List<Persona>();
+         List<Cliente> misclientes = new List<Cliente>();
 
         public MainWindow()
         {
@@ -39,29 +39,31 @@ namespace Vista1
 
             try
             {
-                Persona per = new Persona();
+                Cliente cli = new Cliente();
 
-                per.rut = txtRut.Text;
-                per.nombres = txtNombre.Text;
-                per.apellidos = txtApellidos.Text;
-                per.fechaNaci = (DateTime)dpFechaNac.SelectedDate;
+                cli.rut = txtRut.Text;
+                cli.nombres = txtNombre.Text;
+                cli.apellidos = txtApellidos.Text;
+                cli.fechaNacimiento = (DateTime)dpFechaNac.SelectedDate;
 
+
+                //me quede aqui arreglando
                 Console.WriteLine();
                 if (rbfemenino.IsChecked.Equals(true))
                 {
-                    per.sexo = "Mujer";
+                    cli.sexo = "Mujer";
                 }
                 else if (rbmasculino.IsChecked.Equals(true))
                 {
-                    per.sexo = "Maculino";
+                    cli.sexo = "Maculino";
                 }
 
 
-                per.estadoCiv = cbsituacion.Text;
+                cli.estadoCiv = cbsituacion.Text;
 
 
 
-                misclientes.Add(per);
+                misclientes.Add(cli);
 
                 MostrarPersonas();
                 Limpiar();
@@ -193,6 +195,16 @@ namespace Vista1
             {
                 MessageBox.Show("Cliente no encontrado!","Atención",MessageBoxButton.OK,MessageBoxImage.Exclamation);
             }
+        }
+
+        private void txtNombre_TextChanged(object sender, TextChangedEventArgs e)
+        {
+
+        }
+
+        private void cbsituacion_SelectionChanged(object sender, SelectionChangedEventArgs e)
+        {
+
         }
     }
 }

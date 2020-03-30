@@ -2,17 +2,15 @@
 using System.Collections.Generic;
 using System.Text;
 
-namespace BibliotecaPersona
+namespace BeLife
 {
-    public class Sexo
+    public enum Sexo
     {
-        enum Genero { femenino,masculino };
+        femenino=0, masculino=1
 
-
-        public static void holaaa()
-        {
-           Type sex = typeof(Genero);
-        }
     }
 
-}
+    
+    }
+
+

@@ -1,29 +1,39 @@
 ﻿using System;
 
-namespace BibliotecaPersona
+//BIblioteca de cliente
+namespace BeLife
 {
-    public class Persona
-    {
-        public String rut { get; set; }
-        public String nombres { get; set; }
-        public String apellidos { get; set; }
-        public DateTime fechaNaci { get; set; }
 
-        public String sexo { get; set; }
-        public String estadoCiv { get; set; }
-        public Persona()
+    //creando clase de cliente 
+    public class Cliente
+    {
+        //Atributos y get and set 
+        public string rut { get; set; }
+        public string nombres { get; set; }
+        public string apellidos { get; set; }
+        public DateTime fechaNacimiento { get; set; }
+
+        public Sexo genero { get; set; }
+
+        public Estado situacion { get; set; }
+
+        //contructor de cliente 
+        public Cliente()
         {
             this.Init();
         }
 
+        //constructor con parametros
         private void Init()
         {
             rut = string.Empty;
             nombres = string.Empty;
             apellidos = string.Empty;
-            fechaNaci = DateTime.Today;
-            sexo = string.Empty;
-            estadoCiv = string.Empty;
+            fechaNacimiento = DateTime.Today;
+            genero = Sexo.femenino;
+            situacion = Estado.casado;
+         
+            
         }
 
     }   

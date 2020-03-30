@@ -3,15 +3,3 @@ C:\Users\danie\source\repos\BibliotecaPersona\Vista1\obj\Debug\MainWindow.g.cs
 C:\Users\danie\source\repos\BibliotecaPersona\Vista1\obj\Debug\App.g.cs
 C:\Users\danie\source\repos\BibliotecaPersona\Vista1\obj\Debug\Vista1_MarkupCompile.cache
 C:\Users\danie\source\repos\BibliotecaPersona\Vista1\obj\Debug\Vista1_MarkupCompile.lref
-C:\Users\danie\source\repos\BibliotecaPersona\Vista1\bin\Debug\Vista1.exe.config
-C:\Users\danie\source\repos\BibliotecaPersona\Vista1\bin\Debug\Vista1.exe
-C:\Users\danie\source\repos\BibliotecaPersona\Vista1\bin\Debug\Vista1.pdb
-C:\Users\danie\source\repos\BibliotecaPersona\Vista1\bin\Debug\BibliotecaPersona.dll
-C:\Users\danie\source\repos\BibliotecaPersona\Vista1\bin\Debug\BibliotecaPersona.pdb
-C:\Users\danie\source\repos\BibliotecaPersona\Vista1\obj\Debug\MainWindow.baml
-C:\Users\danie\source\repos\BibliotecaPersona\Vista1\obj\Debug\Vista1.g.resources
-C:\Users\danie\source\repos\BibliotecaPersona\Vista1\obj\Debug\Vista1.Properties.Resources.resources
-C:\Users\danie\source\repos\BibliotecaPersona\Vista1\obj\Debug\Vista1.csproj.GenerateResource.cache
-C:\Users\danie\source\repos\BibliotecaPersona\Vista1\obj\Debug\Vista1.csproj.CopyComplete
-C:\Users\danie\source\repos\BibliotecaPersona\Vista1\obj\Debug\Vista1.exe
-C:\Users\danie\source\repos\BibliotecaPersona\Vista1\obj\Debug\Vista1.pdb

@@ -10,7 +10,7 @@
         <Label x:Name="Lrut" Content="Rut" HorizontalAlignment="Left" Margin="66,32,0,0" VerticalAlignment="Top" FontWeight="Bold"/>
         <TextBox x:Name="txtRut" HorizontalAlignment="Left" Height="23" Margin="206,35,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="220" RenderTransformOrigin="0.364,-0.055"/>
         <Label x:Name="Lnombres" Content="Nombres" HorizontalAlignment="Left" Margin="66,79,0,0" VerticalAlignment="Top" FontWeight="Bold"/>
-        <TextBox x:Name="txtNombre" HorizontalAlignment="Left" Height="23" Margin="206,82,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="220"/>
+        <TextBox x:Name="txtNombre" HorizontalAlignment="Left" Height="23" Margin="206,82,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="220" TextChanged="txtNombre_TextChanged"/>
         <Label x:Name="Lapellidos" Content="Apellidos" HorizontalAlignment="Left" Margin="66,131,0,0" VerticalAlignment="Top" RenderTransformOrigin="-0.237,-0.423" FontWeight="Bold"/>
         <TextBox x:Name="txtApellidos" HorizontalAlignment="Left" Height="23" Margin="206,131,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="220"/>
         <Label x:Name="LfechaNaci" Content="Fecha Nacimiento&#xD;&#xA;" HorizontalAlignment="Left" Margin="66,181,0,0" VerticalAlignment="Top" FontWeight="Bold"/>
@@ -19,7 +19,7 @@
         <DataGrid x:Name="dgCliente" HorizontalAlignment="Left" Height="176" Margin="35,358,0,0" VerticalAlignment="Top" Width="560" IsReadOnly="True"/>
         <RadioButton x:Name="rbfemenino" Content="Femenino" HorizontalAlignment="Left" Margin="206,233,0,0" VerticalAlignment="Top" GroupName="sexo"/>
         <RadioButton x:Name="rbmasculino" Content="Masculino" HorizontalAlignment="Left" Margin="353,233,0,0" VerticalAlignment="Top" GroupName="sexo"/>
-        <ComboBox x:Name="cbsituacion" HorizontalAlignment="Left" Margin="206,274,0,0" VerticalAlignment="Top" Width="220" SelectedIndex="0">
+        <ComboBox x:Name="cbsituacion" HorizontalAlignment="Left" Margin="206,274,0,0" VerticalAlignment="Top" Width="220" SelectedIndex="0" SelectionChanged="cbsituacion_SelectionChanged">
             <ComboBoxItem Content="Soltero"/>
             <ComboBoxItem Content="Divorciado"/>
             <ComboBoxItem Content="Viudo"/>
