@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\danie\\source\\repos\\BibliotecaPersona\\BibliotecaPersona\\BibliotecaPersona.csproj": {}
+    "C:\\Users\\danie\\Desktop\\Nueva carpeta\\BibliotecaPersona\\BibliotecaPersona\\BibliotecaPersona.csproj": {}
   },
   "projects": {
-    "C:\\Users\\danie\\source\\repos\\BibliotecaPersona\\BibliotecaPersona\\BibliotecaPersona.csproj": {
+    "C:\\Users\\danie\\Desktop\\Nueva carpeta\\BibliotecaPersona\\BibliotecaPersona\\BibliotecaPersona.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\danie\\source\\repos\\BibliotecaPersona\\BibliotecaPersona\\BibliotecaPersona.csproj",
+        "projectUniqueName": "C:\\Users\\danie\\Desktop\\Nueva carpeta\\BibliotecaPersona\\BibliotecaPersona\\BibliotecaPersona.csproj",
         "projectName": "BibliotecaPersona",
-        "projectPath": "C:\\Users\\danie\\source\\repos\\BibliotecaPersona\\BibliotecaPersona\\BibliotecaPersona.csproj",
+        "projectPath": "C:\\Users\\danie\\Desktop\\Nueva carpeta\\BibliotecaPersona\\BibliotecaPersona\\BibliotecaPersona.csproj",
         "packagesPath": "C:\\Users\\danie\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\danie\\source\\repos\\BibliotecaPersona\\BibliotecaPersona\\obj\\",
+        "outputPath": "C:\\Users\\danie\\Desktop\\Nueva carpeta\\BibliotecaPersona\\BibliotecaPersona\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\danie\\AppData\\Roaming\\NuGet\\NuGet.Config",
